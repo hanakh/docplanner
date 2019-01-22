@@ -1,0 +1,483 @@
+
+
+/* .navbar-brand span:first-child
+{
+    color: #3d83df;
+}
+.navbar-brand span:last-child
+{
+    color: grey;
+} */
+/* @media screen and  (max-width: 992px){ */
+.lead_logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.titre{
+    text-align: center;
+    color: rgb(0, 179, 155) ;  
+    font-size: 2.125rem;
+    font-family: sans-serif;
+    padding-bottom: 3%
+}
+.paragraphes{
+    color: rgb(116, 116, 116);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%
+}
+.patient{
+    font-size: 1rem;
+}
+.bloc1{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    
+    
+}
+.part1{
+    background-color: #00ccb1;
+    width: 500px;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 12px;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.part2{
+    background-color: rgb(61, 131, 223);
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.image{
+    width: 340%;
+    height: 400%;
+    vertical-align: middle;
+}
+.p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.patient{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: smaller
+}
+.bloc2{
+    color: rgb(0, 179, 155)
+}
+.paragraphe3{
+    color: rgb(116, 116, 116);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 2%
+}
+.sous_titre{
+    text-align: center;
+    color: rgb(0, 179, 155) ;  
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-top: 5%
+   
+}
+.mot{
+    color: rgb(116, 116, 116);
+    font-family: sans-serif;
+    display: flex;
+
+    text-align: center;
+}
+.bloc2{
+    padding-top: 2%;
+    display:flex;
+    justify-content: space-around;
+    display:flex;
+    flex-wrap: wrap;
+}
+.liste {
+    display:flex;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    justify-content: space-around;
+    color: rgb(116, 116, 116);
+    
+}
+li a{
+    font-size: 12%;
+}
+
+ li a:hover{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color:  rgb(112, 250, 238) ;
+      
+}
+.phrase{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 8%;
+}
+.tou{
+    padding-top: 20%;
+}
+.parti1{
+    
+    color: #00b39b;
+    margin-left: 10%;
+}
+.parti2{
+    color: rgb(116, 116, 116);
+    margin-left: 10%;
+    font-size: 90%;
+    display: flex;
+}
+.partie2{
+    display: flex;
+    justify-content: space-around;
+}
+.sous_partie1{
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 25%;
+    margin-right: 12%;
+    padding-left: 4%;
+    padding-top: 6%;
+    border-radius: 12px;
+}
+.sous_partie2{
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 18%;
+    margin-bottom: 3%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border-radius: 12px;
+    margin-right: 13%;
+}
+.sous_partie3{
+    background-color: white;
+    border: 1px solid white;
+    margin-right: 6%;
+    margin-top: 15%;
+    margin-bottom: 27%;
+    padding-left: 1%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-left: -8%;
+    margin-right: -3%;
+    border-radius: 12px;
+}
+.sous_partie4{
+    background-color: white;
+    border: 1px solid white;
+    margin-top: -14%;
+   padding-bottom: 18%;
+    padding-top: 18%;
+    margin-left: -8%;
+    border-radius: 12px;
+}
+
+.tout{
+    background-color:#e5faf8;
+}
+.part3{
+    justify-content: space-between
+}
+.II{
+    text-align: center;
+    
+}
+.pp{
+      font-size: 13px;
+      color: rgb(116, 116, 116);
+      text-align: center;
+}
+.TT{
+    color: rgb(0, 179, 155);
+    text-align: center;
+}
+.mycolor{
+   fill: silver;
+}
+/* .col1{
+    justify-content: space-around;
+    margin-bottom: 10%;
+} */
+.sousflbloc1{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.sousflbloc2{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 4%;
+}
+
+.bouton{
+    color: white;
+    background-color: rgb(22, 98, 198);
+    margin-left: 35%;
+    border-radius: 4px;
+    padding-left: 2%; 
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.office {
+    padding-top: 5%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .lead_logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+    .titre{
+        text-align: center;
+        color: rgb(0, 179, 155) ;  
+        font-size: 2.125rem;
+        font-family: sans-serif;
+        padding-bottom: 3%;
+        flex-wrap: wrap;
+    }
+    .paragraphes{
+        color: rgb(116, 116, 116);
+        font-family: sans-serif;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5%;
+        flex-wrap: wrap;
+    }
+    .patient{
+        font-size: 1rem;
+    }
+    .bloc1{
+        display:flex;
+        justify-content: space-around;
+        padding-bottom: 5%;
+        flex-wrap: wrap;
+        
+        
+    }
+    .part1{
+        background-color: #00ccb1;
+        width: 500px;
+        overflow: hidden;
+        height: 300px;
+        border-radius: 12px;
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    .part2{
+        background-color: rgb(61, 131, 223);
+        overflow: hidden;
+        width: 500px;
+        height: 300px;
+        border-radius: 12px;
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    .image{
+        width: 340%;
+        height: 400%;
+        vertical-align: middle;
+    }
+    .p{
+        color: white;
+        font-family: sans-serif;
+        font-size: 26px;
+    }
+    .patient{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: smaller
+    }
+    .bloc2{
+        color: rgb(0, 179, 155);
+        flex-wrap: wrap;
+    }
+    .paragraphe3{
+        color: rgb(116, 116, 116);
+        font-family: sans-serif;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2%;
+        padding-top: 2%
+    }
+    .sous_titre{
+        text-align: center;
+        color: rgb(0, 179, 155) ;  
+        font-size: 2rem;
+        font-family: sans-serif;
+        padding-top: 5%
+       
+    }
+    .mot{
+        color: rgb(116, 116, 116);
+        font-family: sans-serif;
+        display: flex;
+    
+        text-align: center;
+    }
+    .bloc2{
+        padding-top: 2%;
+        display:flex;
+        justify-content: space-around;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .liste {
+        display:flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: space-around;
+        color: rgb(116, 116, 116);
+        
+    }
+    li a{
+        font-size: 12%;
+    }
+    
+     li a:hover{
+        display:flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: space-between;
+        background-color:  rgb(112, 250, 238) ;
+          
+    }
+    .phrase{
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 8%;
+    }
+    .tou{
+        padding-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .parti1{
+        
+        color: #00b39b;
+        margin-left: 10%;
+    }
+    .parti2{
+        color: rgb(116, 116, 116);
+        margin-left: 10%;
+        font-size: 90%;
+        display: flex;
+    }
+    .partie2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .sous_partie1{
+        background-color: white;
+        border: 1px solid white;
+        margin-top: 25%;
+        margin-right: 12%;
+        padding-left: 4%;
+        padding-top: 6%;
+        border-radius: 12px;
+    }
+    .sous_partie2{
+        background-color: white;
+        border: 1px solid white;
+        margin-top: 18%;
+        margin-bottom: 22%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        border-radius: 12px;
+        margin-right: 13%;
+    }
+    .sous_partie3{
+        background-color: white;
+        border: 1px solid white;
+        margin-right: 6%;
+        margin-top: 15%;
+        margin-bottom: 27%;
+        padding-left: 1%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-left: -8%;
+        margin-right: -3%;
+        border-radius: 12px;
+    }
+    .sous_partie4{
+        background-color: white;
+        border: 1px solid white;
+        margin-top: -14%;
+       padding-bottom: 18%;
+        padding-top: 18%;
+        margin-left: -8%;
+        border-radius: 12px;
+        margin-bottom: 22%;
+    }
+    
+    .tout{
+        background-color:#e5faf8;
+        flex-wrap: wrap;
+    }
+    .part3{
+        justify-content: space-between
+    }
+    .II{
+        text-align: center;
+        
+    }
+    .pp{
+          font-size: 13px;
+          color: rgb(116, 116, 116);
+          text-align: center;
+    }
+    .TT{
+        color: rgb(0, 179, 155);
+        text-align: center;
+    }
+    .mycolor{
+       fill: silver;
+    }
+
+    .sousflbloc1{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+    .sousflbloc2{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-top: 4%;
+    }
+   
+    .office {
+        padding-top: 5%;
+      m
+    }
+    .finalbloc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
